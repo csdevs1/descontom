@@ -12,13 +12,17 @@ body {
     float: left;
 }
 
+.horizontal-mobile {
+    display: none;
+}
+
 #logo {
     padding-top: 0.8em;
     max-width: 99.99999999%;
 }
 #container {
     background: rgba(0,0,0,0.05);
-    margin-top: 4.770833333em;
+    margin-top: 2.770833333em;
 }
 
 footer {
