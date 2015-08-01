@@ -96,6 +96,8 @@ a, button {
 	padding: 0 0 0.6em 0.1em;
 }
 
+
+
 /* To Navigation Style */
 .codrops-top {
 	background: #fff;
@@ -209,5 +211,76 @@ a, button {
 @media screen and (max-width: 480px) {
     .ecwid-SearchPanel-field {
         margin-top: 3.5em;
+    }
+}
+
+.horizontal-desktop {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 1600px) {
+    .horizontal-desktop {
+        display: inline-block;
+        width: 67%;
+        margin-right: auto;
+        margin-left: 28%;
+    }
+
+}
+
+@media screen and (max-width: 1350px) {
+    .horizontal-desktop {
+        display: inline-block;
+        width: 67%;
+        margin-right: auto;
+        margin-left: 34%;
+    }
+    
+    .ecwid-SearchPanel-field {
+        width: 8.5em;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .horizontal-desktop {
+        display: inline-block;
+        width: 67%;
+        margin-right: auto;
+        margin-left: 30%;
+    }
+    
+    .horizontal-desktop ul li a{
+        margin-right: 0.1em;
+    }
+    .ecwid-SearchPanel-field {
+        width: 7.5em;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .horizontal-desktop {
+        display: inline-block;
+        width: 67%;
+        margin-right: auto;
+        margin-left: 31%;
+    }
+    
+    .horizontal-desktop ul li a{
+        margin-right: 0em;
+    }
+    .ecwid-SearchPanel-field {
+        width: 6.2em;
+    }
+}
+
+@media screen and (max-width: 1216px) {
+    .horizontal-desktop {
+        display: none;
+    }
+    
+    .ecwid-SearchPanel-field {
+        width: 12em;
     }
 }
