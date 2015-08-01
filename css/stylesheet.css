@@ -11,11 +11,8 @@ body {
 #my-cart-5236037 {
     float: left;
 }
-
-.horizontal-mobile {
-    display: none;
-    visibility: hidden;
-}
+/*
+*/
 
 #logo {
     padding-top: 0.8em;
@@ -23,7 +20,7 @@ body {
 }
 #container {
     background: rgba(0,0,0,0.05);
-    margin-top: 2.770833333em;
+    margin-top: 3.770833333em;
 }
 
 footer {
@@ -179,6 +176,103 @@ a, button {
 	color: #89867e;
 }
 
+.horizontal-desktop {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 1800px) {    
+    #container {
+        margin-top: 1.170833333em;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .horizontal-desktop {
+        display: inline-block;
+        visibility: visible;
+        width: 67%;
+        margin-right: auto;
+        margin-left: 28%;
+    }
+    
+    #container {
+        margin-top: 1.170833333em;
+    }
+
+}
+
+@media screen and (max-width: 1350px) {
+    .horizontal-desktop {
+        display: inline-block;
+        visibility: visible;
+        width: 67%;
+        margin-right: auto;
+        margin-left: 34%;
+    }
+    
+    .ecwid-SearchPanel-field {
+        width: 8.5em;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .horizontal-desktop {
+        display: inline-block;
+        visibility: visible;
+        width: 67%;
+        margin-right: auto;
+        margin-left: 30%;
+    }
+    
+    .horizontal-desktop ul li a{
+        margin-right: 0.1em;
+    }
+    .ecwid-SearchPanel-field {
+        width: 7.5em;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .horizontal-desktop {
+        display: inline-block;
+        visibility: visible;
+        width: 67%;
+        margin-right: auto;
+        margin-left: 31%;
+    }
+    
+    .horizontal-desktop ul li a{
+        margin-right: 0em;
+    }
+    .ecwid-SearchPanel-field {
+        width: 6.2em;
+    }
+}
+
+@media screen and (max-width: 1216px) {
+    .horizontal-desktop {
+        visibility: hidden;
+        display: none;
+    }
+    
+    .ecwid-SearchPanel-field {
+        width: 12em;
+    }
+    
+    .horizontal-mobile {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 1100px) {    
+    #container {
+        margin-top: 3.170833333em;
+    }
+}
+
 @media screen and (max-width: 1025px) {
 	.container > header {
 		margin: 0 auto;
@@ -217,77 +311,5 @@ a, button {
 @media screen and (max-width: 480px) {
     .ecwid-SearchPanel-field {
         margin-top: 3.5em;
-    }
-}
-
-.horizontal-desktop {
-    width: 70%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-@media screen and (max-width: 1600px) {
-    .horizontal-desktop {
-        display: inline-block;
-        width: 67%;
-        margin-right: auto;
-        margin-left: 28%;
-    }
-
-}
-
-@media screen and (max-width: 1350px) {
-    .horizontal-desktop {
-        display: inline-block;
-        width: 67%;
-        margin-right: auto;
-        margin-left: 34%;
-    }
-    
-    .ecwid-SearchPanel-field {
-        width: 8.5em;
-    }
-}
-
-@media screen and (max-width: 1300px) {
-    .horizontal-desktop {
-        display: inline-block;
-        width: 67%;
-        margin-right: auto;
-        margin-left: 30%;
-    }
-    
-    .horizontal-desktop ul li a{
-        margin-right: 0.1em;
-    }
-    .ecwid-SearchPanel-field {
-        width: 7.5em;
-    }
-}
-
-@media screen and (max-width: 1250px) {
-    .horizontal-desktop {
-        display: inline-block;
-        width: 67%;
-        margin-right: auto;
-        margin-left: 31%;
-    }
-    
-    .horizontal-desktop ul li a{
-        margin-right: 0em;
-    }
-    .ecwid-SearchPanel-field {
-        width: 6.2em;
-    }
-}
-
-@media screen and (max-width: 1216px) {
-    .horizontal-desktop {
-        display: none;
-        visibility: hidden;
-    }
-    
-    .ecwid-SearchPanel-field {
-        width: 12em;
     }
 }
