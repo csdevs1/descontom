@@ -14,6 +14,7 @@
         <meta name="fragment" content="!">
         <meta property="og:title" content="Descontomania" />
         <meta property="og:site_name" content="Descontomania">
+        <meta property="og:url" content="http://www.descontom.com" />
         <meta property="og:description" content="DESCONTOMANIA LDA. Fundada em 13 de fevereiro de 2014 é uma empresa dedicada à pesquisa, desenvolvimento e distribuição de equipamentos de vigilância e soluções." />
         <meta property="og:image" content="https://i.imgur.com/jXSjZfk.png" />
         <meta name="robots" content="follow,index">
